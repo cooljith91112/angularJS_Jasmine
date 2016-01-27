@@ -1,4 +1,4 @@
-describe('calculator', function() {
+describe('Jasmine Test', function() {
 
     beforeEach(angular.mock.module('jasmine_testing'));
 
@@ -23,4 +23,17 @@ describe('calculator', function() {
         });
     });
 
+    describe('search color', function(){
+        it('red should be #f00', function(){
+            var vm = $controller('TestingController',{
+                $scope: scope
+            });
+
+            var color = 'red';
+            vm.search(color);
+            expect(vm.color).toBe("#f00");
+        });
+    });
+
 });
+

@@ -1,0 +1,22 @@
+{
+  "name": "jasmine",
+  "authors": [
+    "Indrajith K L <indrajith@inapp.com>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.4.9",
+    "angular-mocks": "^1.4.9"
+  }
+}

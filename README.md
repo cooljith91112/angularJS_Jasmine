@@ -1,0 +1,1 @@
+** Just for learning Unit Testing with AngularJS+Jasmine **
